@@ -1,0 +1,5 @@
+# Created at 2026-10-11T23:45:38.455
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Smart Canteen Pre-Order and Queue Management System Using Java\backend\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
