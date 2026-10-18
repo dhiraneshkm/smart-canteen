@@ -1,6 +1,7 @@
 package com.smartcanteen.dto.cart;
 
 import com.smartcanteen.entity.Cart;
+import com.smartcanteen.entity.CartItem;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

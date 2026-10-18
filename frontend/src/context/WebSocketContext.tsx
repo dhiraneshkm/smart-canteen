@@ -20,7 +20,7 @@ export const WebSocketProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   useEffect(() => {
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     const host = window.location.hostname;
-    const wsUrl = `${protocol}//${host}:8080/ws`;
+    const wsUrl = import.meta.env.VITE_WS_URL || `${protocol}//${host}:8080/ws`;
 
     const client = new Client({
       brokerURL: wsUrl,
